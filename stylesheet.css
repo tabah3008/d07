@@ -1,0 +1,263 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  html, body,
+  ul, ol, li,
+  h1, h2, h3, h4, h5, h6, p, div {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* ini diedit */
+  body {
+    font-family: "Poppins"; 
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  .clear {
+    clear: left;
+  }
+  
+  .container {
+    max-width: 1170px;
+    padding: 0 15px;
+    margin: 0 auto;
+  }
+  
+  .top-wrapper {
+    padding: 180px 0 135px 0; /* ganti padding-bottom */
+    background-image: url(top-wrapper2.jpg); /* ganti gambar*/
+    background-size: cover;
+    color: white;
+    text-align: center;
+  }
+  
+  .top-wrapper h1 {
+    opacity: 0.9; /*naikin opacity*/
+    font-size: 45px;
+    letter-spacing: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .top-wrapper p {
+    opacity: 0.9;
+    margin-bottom: 3px;
+    /* ganti font-family*/
+    font-family: "Lucida handwriting"; 
+  }
+  
+  .btn-wrapper {
+    text-align: center;
+    margin: 20px 0;
+  }
+  
+  .btn-wrapper p {
+    margin: 10px 0;
+  }
+  
+  .signup {
+    background-color: #4B7A2F;
+  }
+  
+  .facebook {
+    background-color: #3b5998;
+    margin-right: 10px;
+  }
+  
+  .twitter {
+    background-color: #55acee;
+  }
+  
+  .btn {
+    padding: 12px 24px;
+    color: white;
+    display: inline-block;
+    opacity: 0.8;
+    border-radius: 4px;
+    text-align: center;
+  }
+  
+  .btn:hover {
+    opacity: 1;
+  }
+  
+  .fa {
+    margin-right: 5px;
+  }
+  
+  header {
+    height: 65px;
+    width: 100%;
+    background-color:#b9c578;
+    position :fixed;
+    top: 0;
+    z-index: 10;
+    opacity: 0.8;
+  }
+  
+  .logo {
+    width: 124px;
+    margin-top: 20px;
+  }
+  
+  .header-left {
+    float: left;
+  }
+/*edit:puspa*/
+  .header-left img {
+    width: 140px;
+  }
+  
+  .header-right {
+    float: right;
+    margin-right: -25px;
+    font-size: 15px;
+  }
+  
+  .header-right a {
+    line-height: 65px;
+    padding: 0 25px;
+    color: white;
+    display: block;
+    float: left;
+    transition: all 0.5s;
+  }
+  
+  .header-right a:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+  }
+  
+  .destination-wrapper {
+    padding-bottom: 80px;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: #f7f7f7;
+  }
+  
+  .heading {
+    padding-top: 105px;
+    padding-bottom: 50px;
+    color: #5f5d60;
+  }
+  
+  .heading h2 {
+    text-align: center;
+  }
+  
+  .destination {
+    float: left;
+    width: 25%;
+    padding: 0 10px;
+  }
+  
+  .destination-icon {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    cursor: pointer;
+  }
+
+  .frame {
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+  }
+
+  .destination-icon img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    transition: all 0.5s;
+  }
+  
+  .destination-icon img:hover{
+    transform: scale(1.1);
+  }
+
+  .destination-icon p {
+    color: black;
+    background-color:white;
+    width: 100%;
+    padding-left: 10%;
+    padding-bottom: 5%;
+    padding-top: 5%;
+  }
+  
+  .txt-contents {
+    width: 80%;
+    display: inline-block;
+    margin-top: 15px;
+    font-size: 15px;
+    color: #b3aeb5;
+  }
+  
+  .heading h3 {
+    font-weight: normal;
+  }
+  
+  .message-wrapper {
+    border-bottom: 1px solid #eee;
+    padding-bottom: 80px;
+    text-align: center;
+  }
+  
+  .message {
+    padding: 15px 40px;
+    background-color: #5dca88;
+    cursor: pointer;
+    box-shadow: 0 7px #1a7940;
+  }
+  
+  .message:active {
+    position: relative;
+    top: 7px;
+    box-shadow: none;
+  }
+  
+  /*Dari sini*/
+  .flex-list {
+    display: flex;
+    flex-direction: column;
+  }
+  .flex-list li {
+    flex: auto;
+    list-style: none;
+    margin: 2px auto;
+  }
+  
+
+  .container-foot img{
+    width: 168px;
+    float:left;
+    margin-top:-70px;
+  }
+  
+  footer {
+    padding-top: 30px;
+    padding-bottom: 40px;
+    background-color: #b9c578;
+    margin-bottom:0px;
+  }
+
+  .contents-foot li{
+    font-size: 13px;
+  }
+
+  .contents-foot a{
+    color: black;
+  }
+
+  /*smpe sini*/
+
+
+  
+  /* Ketik code Anda dibawah */
+  .menu-icon {
+    color: white;
+    float: right;
+    font-size: 25px;
+    padding: 21px 0;
+    display: none;
+  }

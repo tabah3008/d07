@@ -1,0 +1,60 @@
+@media all and (max-width: 1000px) {
+    .top-wrapper h1{
+      font-size:32px;
+    }
+    
+    .destination{
+      width:50%;
+      margin-bottom:50px;
+    }
+    
+    .heading h2{
+      font-size:20px;
+    }
+  }
+  
+  /* Untuk Smartphone */
+  @media all and (max-width: 670px) {
+    .btn {
+      width: 100%;
+    }
+    
+    .facebook {
+      margin-bottom: 10px;
+    }
+    
+    .top-wrapper {
+      text-align: left;
+    }
+    
+    .top-wrapper h1{
+      font-size:24px;
+      line-height:36px;
+    }
+
+    .top-wrapper p{
+      font-size:14px;
+      line-height:20px;
+    }
+
+    .header-right {
+      display: none;
+    }
+    
+    .menu-icon {
+      display: block;
+    }
+    
+    .destination{
+      width:100%;
+    }
+    
+    footer{
+      text-align:center;
+      width:100%;
+    }
+    .container-foot img{
+      width: 138px;;
+ 
+    }
+  }
