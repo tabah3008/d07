@@ -50,11 +50,11 @@
     }
     
     footer{
-      text-align:right;
+      text-align:center;
       width:100%;
     }
     .container-foot img{
-      width: 138px;;
+      width: 100px;;
  
     }
   }
