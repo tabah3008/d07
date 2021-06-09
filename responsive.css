@@ -60,4 +60,7 @@
     .contents-foot li{
     font-size: 10px;
     }
+    .media-list{
+    display:none;
+      }
   }
