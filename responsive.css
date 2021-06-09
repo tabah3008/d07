@@ -54,11 +54,12 @@
       width:100%;
     }
     .container-foot img{
-      width: 100px;;
+      width: 100px;
+      margin-top:-60px;
  
     }
     .contents-foot li{
-    font-size: 10px;
+    font-size: 12px;
     }
     .media-list{
     display:none;
