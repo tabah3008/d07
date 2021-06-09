@@ -217,6 +217,20 @@
   }
   
   /*Dari sini*/
+
+  .media-list {
+    display: flex;
+    flex-direction: column;
+    float: right;
+  }
+
+  .media-list li {
+    align-items:flex-end;
+    flex: auto;
+    list-style: none;
+    margin: 2px auto;
+  }
+
   .flex-list {
     display: flex;
     flex-direction: column;
